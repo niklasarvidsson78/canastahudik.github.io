@@ -157,12 +157,17 @@ hr {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
+	margin-bottom: 30px;
 }
 
 .standing-inner {
 	margin:  2px 2px 0 0;
-	padding:  5px;
+	padding:  10px 15px;
 	border:  1px solid #000;
+}
+
+.standing-inner p {
+	font-size: 22px;
 }
 
 /* Rules */
@@ -223,6 +228,18 @@ hr {
 	    margin-left: 15px;
 	    margin-right: 15px;
 	}
+
+	.standing-holder {
+		margin-bottom: 20px;
+	}
+
+	.standing-inner {
+		padding:  10px;
+	}
+
+	.standing-inner p {
+		font-size: 20px;
+	}
 }
 
 @media (max-width: 480px) {
@@ -244,5 +261,9 @@ hr {
 
 	.header-top img {
 		max-height: 40px;
+	}
+
+	.standing-inner p {
+		font-size: 18px;
 	}
 }

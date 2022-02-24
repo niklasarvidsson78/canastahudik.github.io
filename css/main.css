@@ -162,7 +162,7 @@ hr {
 
 .standing-inner {
 	margin:  2px 2px 0 0;
-	padding:  10px 15px;
+	padding:  7px 15px;
 	border:  1px solid #000;
 }
 
@@ -257,5 +257,10 @@ hr {
 
 	.standing-inner p {
 		font-size: 26px;
+	}
+
+	.rules .rules-holder {
+	    margin-left: 10px;
+	    margin-right: 110px;
 	}
 }

@@ -156,6 +156,14 @@ hr {
 	text-align: center;
 }
 
+.standing h2 {
+	font-size: 30px;
+}
+
+.standing h3 {
+	font-size: 26px;
+}
+
 .standing-holder {
 	display: flex;
 	justify-content: center;
